@@ -1,0 +1,28 @@
+{
+	"name": "ph34rd/palindrome",
+	"description": "Palindrome finder on UTF-8 strings",
+	"version": "0.0.1",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "ph34rd",
+			"email": "ph34rd@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"ext-mbstring": "*"
+	},
+	"require-dev": {
+		"nette/tester": "^1.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Ph34rd\\Palindrome\\": "src/"
+		},
+		"files": [
+			"src/functions.php"
+		]
+	}
+}
